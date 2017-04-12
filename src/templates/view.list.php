@@ -158,7 +158,7 @@ in
 <?php
 
 	foreach ($snippets as $snippet) {
-		print '<li class="snippet">' . $snippet . '</li>';
+		print '<li class="snippet">' . htmlentities($snippet) . '</li>';
 	}
 
 ?>
